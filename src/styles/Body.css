@@ -1,0 +1,447 @@
+.unlock-section {
+  width: 100%;                
+  height: 350px;             /* fixed height */
+  display: flex;               
+  align-items: center;        /* center vertically */
+  background: white;
+  padding: 0;                 /* remove extra padding */
+  box-sizing: border-box;
+}
+.unlock-section-text p{
+     font-size:0.8rem;
+      width: 500px; }
+
+.unlock-section-inner {
+  width: 100%;         
+  max-width: 1200px;    
+  margin: 0 auto;      
+  padding: 0 2rem;      
+  box-sizing: border-box;
+}
+
+.unlock-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  align-items: center;      /* ensures both text + image align vertically */
+  height: 100%;             /* fill the hero-section height */
+}
+
+.unlock-section-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+.learn-button {
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.learn-button:hover {
+  background-color: rgba(56, 142, 60, 1); /* darker green */
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.unlock-section-text h4{
+    margin: 0; 
+    width:50% ;}
+ .unlock-section-text p{
+     font-size:0.8rem; 
+     width: 500px;
+    padding-top: 8px; }
+  .body-achievement {
+  width: 100%;
+  background: rgba(245, 247, 250, 1); /* full width background */
+  padding: 60px 0;   /* vertical spacing */
+  box-sizing: border-box;
+}
+
+.body-container {
+  max-width: 1200px;   
+  margin: 0 auto;      /* center content */
+  padding: 0 2rem;     /* side spacing */
+  box-sizing: border-box;
+}
+
+.green {
+  color: rgba(76, 175, 79, 1);
+}
+.body-text h4{
+    width: 22%;
+}
+.body-text p{
+font-size: 0.8rem;
+
+  color: #333;
+}
+.achievement-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* left: text, right: stats */
+  align-items: center;
+  gap: 40px;
+}
+
+.achievement-text h4 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.achievement-text p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Stats wrapper */
+.achievement-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 cols */
+  gap: 20px 40px;                /* row gap | col gap */
+  justify-content: start;        /* ✅ align to left */
+  align-items: start;             /* ✅ top align with text */
+  width: max-content;             /* ✅ keeps grid compact */
+  margin-left: 0;                 /* no extra spacing */
+}
+
+.stat-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stat-box img {
+  width: 30px;
+  height: 30px;
+}
+
+.stat-box h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.stat-box p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.green {
+  color: rgba(76, 175, 79, 1);
+}
+
+
+ /*  calender section starts */
+ .calender-section {
+  width: 100%;                
+  height: 350px;             /* fixed height */
+  display: flex;               
+  align-items: center;        /* center vertically */
+  background: white;
+  padding: 0;                 /* remove extra padding */
+  box-sizing: border-box;
+}
+.calender-section-text p{
+     font-size:0.9rem;
+      width: 50%; }
+
+.calender-section-inner {
+  width: 100%;         
+  max-width: 1200px;    
+  margin: 0 auto;      
+  padding: 0 2rem;      
+  box-sizing: border-box;
+}
+
+.calender-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  align-items: center;      /* ensures both text + image align vertically */
+  height: 100%;             /* fill the hero-section height */
+}
+
+.calender-section-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+.learn-button {
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.learn-button:hover {
+  background-color: rgba(56, 142, 60, 1); /* darker green */
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.calender-section-text h4{
+    margin: 0; 
+    width:50% ;}
+ .calender-section-text p{
+     font-size:0.rem; 
+     width: 85%;
+    padding-top: 8px;
+  line-height: 1.8; }
+
+
+
+
+ /* Customer section starts */    
+  .customer-section {
+  width: 100%;                
+  height: 350px;             /* fixed height */
+  display: flex;               
+  align-items: center;        /* center vertically */
+  background: white;
+  padding: 0;                 /* remove extra padding */
+  box-sizing: border-box;
+}
+.customer-section-text p{
+     font-size:0.8rem;
+      width: 500px; }
+
+.customer-section-inner {
+  width: 100%;         
+  max-width: 1200px;    
+  margin: 0 auto;      
+  padding: 0 2rem;      
+  box-sizing: border-box;
+}
+
+.customer-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  align-items: stretch;          /* make both columns full height */
+  height: 100%;                  /* fill the hero-section height */
+  gap: 20px;                     /* optional space between text and image */
+}
+
+.customer-section-image {
+  display: flex;
+  align-items: center;           /* vertically center the image if smaller */
+  justify-content: center;
+}
+
+.customer-section-image img {
+  max-width: 75%;                /* keep image size consistent */
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.customer-section-text {
+  position: relative; /* allow absolute positioning inside */
+}
+
+.customer-section-text h5 {
+  margin: 0; 
+  width: 50%;
+  color: rgba(76, 175, 79, 1);
+}
+
+.customer-section-text h6 {
+  color: grey;
+  margin: 5px 0;
+}
+
+.customer-section-text p {
+  font-size: 0.9rem; 
+  width: 90%;                   /* fit within text container */
+  margin-top: 8px;
+  line-height: 1.8;
+}
+
+.customer-section-text img {
+  width: 70%;
+  height: auto;
+ padding: 20px;
+  display: inline-block; /* keep it inline so button can sit next to it */
+  vertical-align: middle;
+  padding-left: 0;
+}
+
+.customer-section-text button {
+  background-color: transparent;
+  color: rgba(76, 175, 79, 1);
+  cursor: pointer;
+  border: 2px solid rgba(76, 175, 79, 1);
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  display: inline-block;
+  vertical-align: middle; /* align button with image vertically */
+  margin-left: 10px;   
+  border: none;  
+  padding-left: 0px; /* spacing between image and button */
+}
+
+  .community-text {
+  text-align: center;   /* center align text */
+  max-width: 700px;     /* keep it from stretching too wide */
+  margin: 0 auto;       /* center horizontally */
+  padding-top: 20px;    /* add space from top if needed */
+}
+.community-text h4 {
+ 
+  margin-bottom: 10px;
+}
+.community-text p {
+  
+ 
+  color: #555;
+}
+.body-community {
+  text-align: center;
+  padding: 40px;
+}
+
+.community-text {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+.community-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-card {
+  position: relative;
+  width: 300px;
+}
+
+.image-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.image-card .card {
+  position: absolute;
+  bottom: -40%;  
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  background: #f4f6f8;   /* ✅ light solid color */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  height: 65%;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect only on card */
+.image-card .card:hover {
+  background: #e0e7ef;  /* ✅ slightly darker on hover */
+  transform: translateX(-50%) translateY(-5px);
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.15);
+}
+
+.read-button{
+  
+ 
+  color:  rgba(76,175,79,1);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 5px;
+  background-color: transparent;
+}
+  
+
+/* ========== RESPONSIVE STYLES ========== */
+
+/* ✅ Tablet & small laptop fixes (≤1024px) */
+@media (max-width: 1024px) {
+  /* General sections */
+  .hero-section-grid,
+  .unlock-section-grid,
+  .calender-section-grid,
+  .customer-section-grid,
+  .achievement-grid {
+    grid-template-columns: 1fr;   /* stack */
+    text-align: center;
+    gap: 20px;
+    height: auto;                 /* ✅ allow flexible height */
+  }
+
+  .unlock-section,
+  .calender-section,
+  .customer-section {
+    height: auto;                 /* ✅ remove fixed height on mid screens */
+    padding: 40px 20px;
+  }
+
+  .unlock-section-text h4,
+  .calender-section-text h4,
+  .customer-section-text h5 {
+    width: 100%;                  /* ✅ don’t lock text width */
+    margin: 0 auto;
+  }
+
+  .unlock-section-text p,
+  .calender-section-text p,
+  .customer-section-text p {
+    width: 90%;                   /* ✅ flexible text width */
+    margin: 0 auto;
+  }
+
+  .achievement-stats {
+    grid-template-columns: 1fr 1fr;  /* ✅ compact 2-col grid */
+    justify-content: center;
+  }
+
+  /* Community section */
+  .community-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* ✅ 2 cards per row */
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .image-card {
+    width: 90%;
+    max-width: 280px;
+  }
+
+  .image-card .card {
+    position: static;      /* ✅ remove overlap */
+    transform: none;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ✅ Tablets & below (≤768px) */
+@media (max-width: 768px) {
+  .achievement-stats {
+    grid-template-columns: 1fr;   /* stack stats */
+  }
+
+  .community-images {
+    grid-template-columns: 1fr;   /* stack cards */
+  }
+
+  .image-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}

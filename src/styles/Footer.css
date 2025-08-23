@@ -1,0 +1,220 @@
+.top-section {
+  display: flex;
+  flex-direction: column;  /* stack heading and button */
+  align-items: center;     /* center horizontally */
+  justify-content: center; /* keep at top */
+   
+  height: 200px;     /* equal margin top & bottom */
+  text-align: center; 
+  background: rgba(245, 247, 250, 1);
+;     /* center text */
+}
+
+.top-section h2 {
+  margin: 0 0 20px 0;  /* only space below heading */
+  width: 30%;
+}
+
+.demo-button {
+  background-color: rgba(76, 175, 79, 1);
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+   font-size: 0.8rem;
+   cursor: pointer;
+  
+}
+.demo-button:hover {
+  background-color: rgba(56, 142, 60, 1); /* darker green */
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.top-section {
+  margin-top: 140px; /* pushes footer below cards */
+}
+
+.footer {
+  background: rgba(38, 50, 56, 1);
+  color: white;
+  padding: 30px 80px;
+  /* ensures space from top-section */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 250px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  text-decoration: underline;
+}
+
+.input-container {
+  position: relative;
+  width: 250px; /* adjust as needed */
+}
+
+.input-container input {
+  width: 100%;
+  padding-right: 40px; /* space for the button */
+  height: 40px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 1);
+
+}
+
+.input-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 40px;
+  border: none;
+  background-color: transparent; /* button color */
+  color: black;
+;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Existing styles remain as-is */
+/* Extra responsive fixes */
+/* =================== RESPONSIVENESS ONLY =================== */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .top-section {
+    height: auto; /* remove fixed height */
+    padding: 40px 20px;
+  }
+
+  .top-section h2 {
+    width: 70%; /* allow more width */
+    font-size: 1.5rem;
+  }
+
+  .input-container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* Small Tablets & Large Mobiles (≤768px) */
+@media (max-width: 768px) {
+  .top-section {
+    margin-top: 100px;
+    padding: 30px 15px;
+  }
+
+  .top-section h2 {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+
+  .demo-button {
+    font-size: 0.75rem;
+    padding: 8px 14px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Mobile Portrait (≤480px) */
+@media (max-width: 480px) {
+  .top-section {
+    margin-top: 80px;
+    padding: 20px 10px;
+  }
+
+  .top-section h2 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .demo-button {
+    width: 100%;
+    max-width: 200px;
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .footer {
+    padding: 20px 15px;
+  }
+
+  .footer-links {
+    gap: 15px;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+
+  .input-container input {
+    font-size: 14px;
+    height: 36px;
+  }
+}
+
+/* Extra Small (≤390px) */
+@media (max-width: 390px) {
+  .top-section h2 {
+    font-size: 1rem;
+  }
+
+  .demo-button {
+    max-width: 180px;
+    font-size: 0.75rem;
+    padding: 8px;
+  }
+
+  .footer {
+    padding: 15px 10px;
+  }
+}
