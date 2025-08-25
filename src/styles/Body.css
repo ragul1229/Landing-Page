@@ -1,29 +1,31 @@
 .unlock-section {
-  width: 100%;                
-  height: 350px;             /* fixed height */
-  display: flex;               
-  align-items: center;        /* center vertically */
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
   background: white;
-  padding: 0;                 /* remove extra padding */
+  padding: 0;
   box-sizing: border-box;
 }
-.unlock-section-text p{
-     font-size:0.8rem;
-      width: 500px; }
+
+.unlock-section-text p {
+  font-size: 0.8rem;
+  width: 500px;
+}
 
 .unlock-section-inner {
-  width: 100%;         
-  max-width: 1200px;    
-  margin: 0 auto;      
-  padding: 0 2rem;      
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
 
 .unlock-section-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr; 
-  align-items: center;      /* ensures both text + image align vertically */
-  height: 100%;             /* fill the hero-section height */
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  height: 100%;
 }
 
 .unlock-section-image img {
@@ -34,6 +36,7 @@
   margin: 0 auto;
   width: 75%;
 }
+
 .learn-button {
   background-color: rgba(76, 175, 79, 1);
   color: white;
@@ -43,47 +46,54 @@
   cursor: pointer;
   font-size: 1rem;
 }
+
 .learn-button:hover {
-  background-color: rgba(56, 142, 60, 1); /* darker green */
-  transform: translateY(-2px); 
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  background-color: rgba(56, 142, 60, 1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.unlock-section-text h4{
-    margin: 0; 
-    width:50% ;}
- .unlock-section-text p{
-     font-size:0.8rem; 
-     width: 500px;
-    padding-top: 8px; }
-  .body-achievement {
+.unlock-section-text h4 {
+  margin: 0;
+  width: 50%;
+}
+
+.unlock-section-text p {
+  font-size: 0.8rem;
+  width: 500px;
+  padding-top: 8px;
+}
+
+.body-achievement {
   width: 100%;
-  background: rgba(245, 247, 250, 1); /* full width background */
-  padding: 60px 0;   /* vertical spacing */
+  background: rgba(245, 247, 250, 1);
+  padding: 60px 0;
   box-sizing: border-box;
 }
 
 .body-container {
-  max-width: 1200px;   
-  margin: 0 auto;      /* center content */
-  padding: 0 2rem;     /* side spacing */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
 
 .green {
   color: rgba(76, 175, 79, 1);
 }
-.body-text h4{
-    width: 22%;
-}
-.body-text p{
-font-size: 0.8rem;
 
+.body-text h4 {
+  width: 22%;
+}
+
+.body-text p {
+  font-size: 0.8rem;
   color: #333;
 }
+
 .achievement-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr; /* left: text, right: stats */
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   gap: 40px;
 }
@@ -101,12 +111,12 @@ font-size: 0.8rem;
 /* Stats wrapper */
 .achievement-stats {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 2 cols */
-  gap: 20px 40px;                /* row gap | col gap */
-  justify-content: start;        /* ✅ align to left */
-  align-items: start;             /* ✅ top align with text */
-  width: max-content;             /* ✅ keeps grid compact */
-  margin-left: 0;                 /* no extra spacing */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  justify-content: start;
+  align-items: start;
+  width: max-content;
+  margin-left: 0;
 }
 
 .stat-box {
@@ -136,34 +146,35 @@ font-size: 0.8rem;
   color: rgba(76, 175, 79, 1);
 }
 
-
- /*  calender section starts */
- .calender-section {
-  width: 100%;                
-  height: 350px;             /* fixed height */
-  display: flex;               
-  align-items: center;        /* center vertically */
+/* calender section starts */
+.calender-section {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
   background: white;
-  padding: 0;                 /* remove extra padding */
+  padding: 0;
   box-sizing: border-box;
 }
-.calender-section-text p{
-     font-size:0.9rem;
-      width: 50%; }
+
+.calender-section-text p {
+  font-size: 0.9rem;
+  width: 50%;
+}
 
 .calender-section-inner {
-  width: 100%;         
-  max-width: 1200px;    
-  margin: 0 auto;      
-  padding: 0 2rem;      
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
 
 .calender-section-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr; 
-  align-items: center;      /* ensures both text + image align vertically */
-  height: 100%;             /* fill the hero-section height */
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  height: 100%;
 }
 
 .calender-section-image img {
@@ -174,6 +185,7 @@ font-size: 0.8rem;
   margin: 0 auto;
   width: 75%;
 }
+
 .learn-button {
   background-color: rgba(76, 175, 79, 1);
   color: white;
@@ -183,62 +195,65 @@ font-size: 0.8rem;
   cursor: pointer;
   font-size: 1rem;
 }
+
 .learn-button:hover {
-  background-color: rgba(56, 142, 60, 1); /* darker green */
-  transform: translateY(-2px); 
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  background-color: rgba(56, 142, 60, 1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.calender-section-text h4{
-    margin: 0; 
-    width:50% ;}
- .calender-section-text p{
-     font-size:0.rem; 
-     width: 85%;
-    padding-top: 8px;
-  line-height: 1.8; }
+.calender-section-text h4 {
+  margin: 0;
+  width: 50%;
+}
 
+.calender-section-text p {
+  font-size: 0.rem;
+  width: 85%;
+  padding-top: 8px;
+  line-height: 1.8;
+}
 
-
-
- /* Customer section starts */    
-  .customer-section {
-  width: 100%;                
-  height: 350px;             /* fixed height */
-  display: flex;               
-  align-items: center;        /* center vertically */
+/* Customer section starts */
+.customer-section {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
   background: white;
-  padding: 0;                 /* remove extra padding */
+  padding: 0;
   box-sizing: border-box;
 }
-.customer-section-text p{
-     font-size:0.8rem;
-      width: 500px; }
+
+.customer-section-text p {
+  font-size: 0.8rem;
+  width: 500px;
+}
 
 .customer-section-inner {
-  width: 100%;         
-  max-width: 1200px;    
-  margin: 0 auto;      
-  padding: 0 2rem;      
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
 
 .customer-section-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr; 
-  align-items: stretch;          /* make both columns full height */
-  height: 100%;                  /* fill the hero-section height */
-  gap: 20px;                     /* optional space between text and image */
+  grid-template-columns: 1fr 2fr;
+  align-items: stretch;
+  height: 100%;
+  gap: 20px;
 }
 
 .customer-section-image {
   display: flex;
-  align-items: center;           /* vertically center the image if smaller */
+  align-items: center;
   justify-content: center;
 }
 
 .customer-section-image img {
-  max-width: 75%;                /* keep image size consistent */
+  max-width: 75%;
   height: auto;
   border-radius: 10px;
   display: block;
@@ -246,11 +261,11 @@ font-size: 0.8rem;
 }
 
 .customer-section-text {
-  position: relative; /* allow absolute positioning inside */
+  position: relative;
 }
 
 .customer-section-text h5 {
-  margin: 0; 
+  margin: 0;
   width: 50%;
   color: rgba(76, 175, 79, 1);
 }
@@ -261,8 +276,8 @@ font-size: 0.8rem;
 }
 
 .customer-section-text p {
-  font-size: 0.9rem; 
-  width: 90%;                   /* fit within text container */
+  font-size: 0.9rem;
+  width: 90%;
   margin-top: 8px;
   line-height: 1.8;
 }
@@ -270,8 +285,8 @@ font-size: 0.8rem;
 .customer-section-text img {
   width: 70%;
   height: auto;
- padding: 20px;
-  display: inline-block; /* keep it inline so button can sit next to it */
+  padding: 20px;
+  display: inline-block;
   vertical-align: middle;
   padding-left: 0;
 }
@@ -283,29 +298,28 @@ font-size: 0.8rem;
   border: 2px solid rgba(76, 175, 79, 1);
   padding: 10px 20px;
   border-radius: 5px;
-
   display: inline-block;
-  vertical-align: middle; /* align button with image vertically */
-  margin-left: 10px;   
-  border: none;  
-  padding-left: 0px; /* spacing between image and button */
+  vertical-align: middle;
+  margin-left: 10px;
+  border: none;
+  padding-left: 0px;
 }
 
-  .community-text {
-  text-align: center;   /* center align text */
-  max-width: 700px;     /* keep it from stretching too wide */
-  margin: 0 auto;       /* center horizontally */
-  padding-top: 20px;    /* add space from top if needed */
+.community-text {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
+
 .community-text h4 {
- 
   margin-bottom: 10px;
 }
+
 .community-text p {
-  
- 
   color: #555;
 }
+
 .body-community {
   text-align: center;
   padding: 40px;
@@ -331,32 +345,30 @@ font-size: 0.8rem;
   width: 100%;
   border-radius: 10px;
 }
+
 .image-card .card {
   position: absolute;
-  bottom: -40%;  
+  bottom: -40%;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
-  background: #f4f6f8;   /* ✅ light solid color */
+  background: #f4f6f8;
   padding: 15px;
   border-radius: 12px;
-  box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   height: 65%;
   transition: all 0.3s ease;
 }
 
-/* Hover effect only on card */
 .image-card .card:hover {
-  background: #e0e7ef;  /* ✅ slightly darker on hover */
+  background: #e0e7ef;
   transform: translateX(-50%) translateY(-5px);
-  box-shadow: 0px 8px 18px rgba(0,0,0,0.15);
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.15);
 }
 
-.read-button{
-  
- 
-  color:  rgba(76,175,79,1);
+.read-button {
+  color: rgba(76, 175, 79, 1);
   border: none;
   padding: 8px 12px;
   border-radius: 5px;
@@ -364,84 +376,158 @@ font-size: 0.8rem;
   padding-top: 5px;
   background-color: transparent;
 }
-  
+.community-section-frame {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+}
 
 /* ========== RESPONSIVE STYLES ========== */
 
 /* ✅ Tablet & small laptop fixes (≤1024px) */
+@media (max-width: 768px) {
+  .community-section-frame {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 1024px) {
+  /* This is the new rule for the membership cards */
+  .membership-card-container {
+    /* Change from 3-column to a 2-column layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Center the cards to avoid awkward alignment */
+    justify-items: center;
+  }
+
   /* General sections */
-  .hero-section-grid,
   .unlock-section-grid,
   .calender-section-grid,
   .customer-section-grid,
   .achievement-grid {
-    grid-template-columns: 1fr;   /* stack */
+    grid-template-columns: 1fr;
     text-align: center;
-    gap: 20px;
-    height: auto;                 /* ✅ allow flexible height */
+    justify-items: center;
   }
 
   .unlock-section,
   .calender-section,
   .customer-section {
-    height: auto;                 /* ✅ remove fixed height on mid screens */
+    height: auto;
     padding: 40px 20px;
   }
 
   .unlock-section-text h4,
   .calender-section-text h4,
   .customer-section-text h5 {
-    width: 100%;                  /* ✅ don’t lock text width */
+    width: 100%;
     margin: 0 auto;
   }
 
   .unlock-section-text p,
   .calender-section-text p,
   .customer-section-text p {
-    width: 90%;                   /* ✅ flexible text width */
+    width: 90%;
     margin: 0 auto;
   }
 
   .achievement-stats {
-    grid-template-columns: 1fr 1fr;  /* ✅ compact 2-col grid */
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
   }
 
   /* Community section */
   .community-images {
     display: grid;
-    grid-template-columns: 1fr 1fr;  /* ✅ 2 cards per row */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
   }
 
   .image-card {
-    width: 90%;
-    max-width: 280px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 
   .image-card .card {
-    position: static;      /* ✅ remove overlap */
+    position: static;
     transform: none;
-    margin-top: 15px;
+    margin-top: 10px;
     width: 100%;
     height: auto;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
   }
+  
 }
 
-/* ✅ Tablets & below (≤768px) */
+/* Tablets & below (≤768px) */
 @media (max-width: 768px) {
+  /* This rule stacks the membership cards on a single column */
+  .membership-card-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  
   .achievement-stats {
-    grid-template-columns: 1fr;   /* stack stats */
+    grid-template-columns: 1fr;
+    margin: 0 auto; /* Added to center the stats block */
   }
 
   .community-images {
-    grid-template-columns: 1fr;   /* stack cards */
+    grid-template-columns: 1fr;
   }
 
   .image-card {
     width: 100%;
-    max-width: 350px;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* force 3 per row */
+    gap: 1.5rem;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .hero-image img,
+  .illustration img {
+    max-width: 80%; /* smaller than original */
+    height: auto;
+  }
+}
+@media (max-width: 1280px) {
+  .unlock-section-image img,
+  .calender-section-image img,
+  .customer-section-image img {
+    width: 60%;   /* shrink a bit */
+    max-width: 400px;
+  }
+}
+
+/* ✅ On tablets */
+@media (max-width: 1024px) {
+  .unlock-section-image img,
+  .calender-section-image img,
+  .customer-section-image img {
+    width: 50%;   /* keep smaller */
+    max-width: 320px;
+  }
+}
+
+/* ✅ On mobiles */
+@media (max-width: 768px) {
+  .unlock-section-image img,
+  .calender-section-image img,
+  .customer-section-image img {
+    width: 70%;   /* make sure it fits nicely */
+    max-width: 260px;
   }
 }

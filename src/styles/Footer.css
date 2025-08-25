@@ -1,9 +1,12 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
 .top-section {
   display: flex;
   flex-direction: column;  /* stack heading and button */
   align-items: center;     /* center horizontally */
   justify-content: center; /* keep at top */
-   
+   background: rgba(255, 255, 255, 1);
+
   height: 200px;     /* equal margin top & bottom */
   text-align: center; 
   background: rgba(245, 247, 250, 1);
@@ -76,21 +79,21 @@
 .footer-links li:hover {
   text-decoration: underline;
 }
-
 .input-container {
   position: relative;
-  width: 250px; /* adjust as needed */
+  width: 250px;
 }
 
 .input-container input {
   width: 100%;
-  padding-right: 40px; /* space for the button */
+  padding: 0 40px 0 15px; /* Added left and right padding for better spacing */
   height: 40px;
   box-sizing: border-box;
   font-size: 16px;
   border-radius: 7px;
-  background: rgba(255, 255, 255, 1);
+ background: rgba(217, 219, 225, 1);
 
+  border: 1px solid #ddd; /* Added a light border for visual separation */
 }
 
 .input-container button {
@@ -100,12 +103,29 @@
   height: 100%;
   width: 40px;
   border: none;
-  background-color: transparent; /* button color */
-  color: black;
-;
+  background-color:transparent;/* Changed to a visible color like green */
+  color: black; /* Changed to white so the arrow is visible on the green background */
   cursor: pointer;
   font-size: 18px;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 7px 7px 0; /* Adjusted to match input's border-radius */
+}
+.social-icons {
+  display: flex;
+  gap: 15px; /* Add spacing between the icons */
+  margin-top: 10px;
+}
+
+.social-icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: transparent; /* A placeholder color to make the circle visible */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Makes the icons white */
+  font-size: 1.2rem;
+  text-decoration: none; /* Removes the underline from links */
 }
 
 /* Existing styles remain as-is */

@@ -18,9 +18,11 @@ export const Footer = () => {
               Copyright © 2020 Nexcent Ltd.<br />All rights reserved
             </p>
             <div className="social-icons">
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-youtube"></i>
+              {/* Updated social icons with circular containers */}
+              <a href="#" className="social-icon-box"><i className="fab fa-instagram"></i></a>
+              <a href="#" className="social-icon-box"><i className="fab fa-dribbble"></i></a>
+              <a href="#" className="social-icon-box"><i className="fab fa-twitter"></i></a>
+              <a href="#" className="social-icon-box"><i className="fab fa-youtube"></i></a>
             </div>
           </div>
 
@@ -50,10 +52,9 @@ export const Footer = () => {
             <div>
               <h4>Stay up to date</h4>
               <div className='input-container'>
-                  <input type="email" placeholder="Your email address" />
-              <button>→</button>
+                <input type="email" placeholder="Your email address" />
+                <button>→</button>
               </div>
-              
             </div>
           </div>
         </div>
