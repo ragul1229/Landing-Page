@@ -22,6 +22,16 @@
   flex-wrap: wrap;
   cursor: pointer;
 }
+.menu a {
+  color: black; /* or whatever color you want */
+  text-decoration: none; /* remove underline */
+  margin: 0 10px; /* spacing between links */
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Optional: hover effect */
+
 
 /* ------------------ Auth Buttons ------------------ */
 .auth-buttons {
